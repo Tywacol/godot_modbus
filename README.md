@@ -4,6 +4,8 @@ My goal is to use the modbus library c++ https://github.com/fanzhe98/modbuspp as
 
 ##Error :
 
+<!-- language: lang-none -->
+
 scons: Building targets ...
 [ 36%] Compiling ==> modules/summator/register_types.cpp
 [ 36%] Compiling ==> modules/summator/summator.cpp
