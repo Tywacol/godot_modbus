@@ -2,9 +2,10 @@
 
 My goal is to use the modbus library c++ https://github.com/fanzhe98/modbuspp as a godot module. But I can't figure where the Error "no matching function modbus::modbus()" comes from as I only call it like that modbus(host,  port); 
 
-##Error :
+## Error :
 
 <!-- language: lang-none -->
+<pre><code>
 
 scons: Building targets ...
 [ 36%] Compiling ==> modules/summator/register_types.cpp
@@ -30,4 +31,4 @@ modules/summator/modbus.h:49:7: note:   candidate expects 1 argument, 0 provided
 [ 99%] progress_finish(["progress_finish"], [])
 [100%] scons: *** [modules/summator/summator.x11.opt.tools.64.o] Error 1
 scons: building terminated because of errors.
-
+</code></pre>.
